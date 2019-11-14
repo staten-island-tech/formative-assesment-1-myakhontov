@@ -1,7 +1,30 @@
-body {
-  background-image: url(media/space.jpg);
+div {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(236, 127, 55, 0.5),
+    rgba(255,255,255,0.5)
+  ),
+  url(media/space.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+h2{
+  text-align: center;
+  color: antiquewhite;
+  font-size: 40px;
+}
+
+ul{
+  color: white;
+  font-size: 30px;
   text-align: center;
 }
