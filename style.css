@@ -34,4 +34,6 @@ img{
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+  -webkit-filter: blur(3px); 
+  filter: blur(3px);
 }
